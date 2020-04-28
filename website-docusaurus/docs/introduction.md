@@ -15,6 +15,10 @@ The [Institute for Language, Communication and the Brain](https://www.ilcb.fr) i
 
 ## Table of Resources
 
+:::tip
+Refer to the [How-to page](ilcbhowto.md) to know more about the preferred paths.
+:::
+
 Online experiments can be written in javascript from scratch, but there are many tools, libraries or all-in-one solutions to help building, managing and promoting an online experiment.
 
 _The list below reflects the knowledge of the researchers and IT support staff involved in the ILCB server initiative._
@@ -35,8 +39,8 @@ _The list below reflects the knowledge of the researchers and IT support staff i
 | [The experiment factory](/docs/introduction#the-experiment-factory)         | x | | |
 | [Netlify](/docs/introduction#netlify)                    |   | x |   |
 | [Openlab](/docs/introduction#openlab)                    |   | x |   |
-| [SoSci](/docs/introduction#sosci)                        |   |   | x |
-| [Sona systems](/docs/introduction#sona-systems)          |   |   | x |
+| [SoSci](/docs/introduction#sosci)                        | x | x | x |
+| [Sona systems](/docs/introduction#sona-systems)          | x | x | x |
 | [Prolific](/docs/introduction#prolific)                  |   |   | x |
 | [Mechanical Turk](/docs/introduction#mechanical-turk)    |   |   | x |
 | [Labvanced](/docs/introduction#labvanced)                | x | x |   |
@@ -62,6 +66,12 @@ _The list below reflects the knowledge of the researchers and IT support staff i
 [JsPsych](https://www.jspsych.org)
 is a JavaScript library for running behavioral experiments in a web browser. The library provides a flexible framework for building a wide range of laboratory-like experiments that can be run online.
 
+:::tip
+
+JsPsych is great for advanced users.
+
+:::
+
 [To top](/docs/introduction#resources)
 
 
@@ -70,6 +80,13 @@ is a JavaScript library for running behavioral experiments in a web browser. The
 ### Lab.js
 
 [Lab.js](https://lab.js.org) is a free, open, online study builder for the behavioral and cognitive sciences.
+
+:::tip
+
+Export your experiment as a Jatos zip file, and import it in JATOS.
+There are plenty of videos on the web to help you start with.
+
+:::
 
 [To top](/docs/introduction#resources)
 
@@ -101,6 +118,13 @@ Basically, everything in OpenSesame that is not python scripted by hand can be t
 
 [PsychopyJs](https://www.psychopy.org) added the facility to run studies online using a high-performance, hardware-accelerated, port of the PsychoPy Python library.
 
+:::tip
+
+PsychopyJs works great with Pavlovia.
+
+:::
+
+
 [To top](/docs/introduction#resources)
 
 
@@ -109,6 +133,12 @@ Basically, everything in OpenSesame that is not python scripted by hand can be t
 ### JATOS
 
 [JATOS](http://www.jatos.org), _Just Another Tool for Online Studies_, helps you set up and run your online studies on your own server.
+
+:::tip
+
+JATOS is available on the ILCB experiment server.
+
+:::
 
 [To top](/docs/introduction#resources)
 
@@ -144,7 +174,7 @@ Basically, everything in OpenSesame that is not python scripted by hand can be t
 
 ### Openlab
 
-Openlab](https://www.open-lab.online) takes care of running experiments and collecting, storing and managing data. The basic version of the application is available for free.
+[Openlab](https://www.open-lab.online) takes care of running experiments and collecting, storing and managing data. The basic version of the application is available for free.
 
 [To top](/docs/introduction#resources)
 
@@ -152,7 +182,9 @@ Openlab](https://www.open-lab.online) takes care of running experiments and coll
 ---
 
 ### SoSci
-[SoSci](https://www.soscisurvey.de) is a solution for online questionnaires
+[SoSci](https://www.soscisurvey.de) is a solution for online questionnaires based in Germany.
+
+Free for Non-commercial Research (promotion is a paid option).
 
 [To top](/docs/introduction#resources)
 
@@ -163,6 +195,10 @@ Openlab](https://www.open-lab.online) takes care of running experiments and coll
 
 [Sona systems](http://www.sona-systems.com/participant-recruitment.aspx) virtualizes every aspect of the sign-up process, eliminating the frustration of paper-based methods and bulletin boards.
 
+:::important
+Please note that the use of Sona systems raises ethical questions as participation may be seen as low-paid jobs.
+:::
+
 [To top](/docs/introduction#resources)
 
 
@@ -172,6 +208,12 @@ Openlab](https://www.open-lab.online) takes care of running experiments and coll
 
 [Prolific](https://www.prolific.co) collects high quality responses from people around the world within minutes.
 
+:::important
+Please note that the use of Prolific raises ethical questions as participation may be seen as low-paid jobs.
+:::
+
+Prolific had been initially designed by researchers in psychology. For participants, a minimum wage of $6.50 per hour is guaranteed, that is below the recommandation of  https://www.psychologicalscience.org/observer/under-the-hood-of-mechanical-turk.
+
 [To top](/docs/introduction#resources)
 
 
@@ -179,7 +221,15 @@ Openlab](https://www.open-lab.online) takes care of running experiments and coll
 
 ###  Mechanical Turk
 
-[Mechanical Turk](https://www.mturk.com)is a crowdsourced market place
+[Mechanical Turk](https://www.mturk.com) is a crowdsourced market place.
+
+:::important
+Please note that the use of Mechanical Turk raises ethical questions as participation may be seen as low-paid jobs.
+:::
+
+_"For some Americans, sub-minimum-wage online tasks are the only work available."_ as stated in this article https://www.theatlantic.com/business/archive/2018/01/amazon-mechanical-turk/551192/ : ).
+
+Researchers in psychology had proposed standard wages of $7.50 an hour or above (see https://www.psychologicalscience.org/observer/under-the-hood-of-mechanical-turk).
 
 [To top](/docs/introduction#resources)
 
@@ -191,10 +241,29 @@ Openlab](https://www.open-lab.online) takes care of running experiments and coll
 [Labvanced](https://www.labvanced.com) is a cloud solution for professional web based experiments
 
 :::tip
-
-ILCB user (with a _univ-amu_ Sesame account) may benefit from a 1-year licence. For a licence, please ask this ILCB web site maintainer at https://github.com/lpc-cnrs-amu/online-xp-docs/issues.
-
+ILCB user (with a _univ-amu_ Sesame account) can benefit from a Lab licence. For a licence, please ask this ILCB web site maintainer at https://github.com/lpc-cnrs-amu/online-xp-docs/issues.
 :::
+
+The Lab / Department licence has :
+
+- Unlimited experiment creation
+- CSV and Excel data export
+- Unlimited Accounts / Logins
+- Unlimited Published Studies at a time
+- Importing all available experiments
+- Unlimited Storage Space
+- Unlimited Recordings for all Studies
+
+along with this support conditions :
+
+- Free Feasibility Check
+- Free Template Suggestion
+- General Information Counsel
+- Answering Technical Questions
+- Telephone / Video Call Assistance
+- Experiment Implementation Supervision
+- Customized Feature Implementation
+
 
 [To top](/docs/introduction#resources)
 

@@ -5,9 +5,13 @@ sidebar_label: How-to
 ---
 import Mermaid from '@theme/Mermaid';
 
+:::important
+**Labvanced.com** : _hosted on Labvanced servers (independant from ILCB servers)_. The ILCB Institute, as well as its constutuent labs, had financed a long-term licence of the Labvanced.com service.
+:::
 
-:::note
-Concerning the ILCB server, we opted for a cloud web server hosted by [DigitalOcean](https://www.digitalocean.com) with a [JATOS](http://www.jatos.org) experiment manager. Regular PHP/MySQL/JavaScript experiments can also be run on this server.
+
+:::important
+**JATOS** :  _hosted on servers managed by ILCB_. Concerning the ILCB server, we opted for a cloud web (server hosted by [DigitalOcean](https://www.digitalocean.com)) with a [JATOS](http://www.jatos.org) experiment manager. Regular PHP/MySQL/JavaScript experiments can also be run on this server.
 :::
 
 
@@ -19,6 +23,58 @@ Concerning the ILCB server, we opted for a cloud web server hosted by [DigitalOc
 
 ---
 
+### Labvanced
+
+
+<Mermaid chart={`
+	graph LR;
+	    id1(<br>Labvanced<br>)-->id1(<br>Labvanced<br>);
+`}/>
+
+Labvanced is a self-contained solution. One can build and run an experiment from labvanced.com on their servers. **The Labvanced support service is reachable online, by phone or by video-calls**.
+
+The Lab / Department licence has :
+
+- Unlimited experiment creation
+- CSV and Excel data export
+- Unlimited Accounts / Logins
+- Unlimited Published Studies at a time
+- Importing all available experiments
+- Unlimited Storage Space
+- Unlimited Recordings for all Studies
+
+along with this support conditions :
+
+- Free Feasibility Check
+- Free Template Suggestion
+- General Information Counsel
+- Answering Technical Questions
+- Telephone / Video Call Assistance
+- Experiment Implementation Supervision
+- Customized Feature Implementation
+
+
+![labvanced-amu](/img/labvanced.png)
+
+
+##### Videos
+
+From Labvanced.com help website (https://www.labvanced.com/video_tutorials_eng.html)
+
+- [Main Overview: A quick overview about all functions](https://www.labvanced.com/video_tutorials_eng.html#LabvancedOverview)
+- [Study Design: Find out about tasks, blocks, sessions & groups](https://www.labvanced.com/video_tutorials_eng.html#StudyDesign)
+- [Publishing: How to publish your study and record data](https://www.labvanced.com/video_tutorials_eng.html#Publishing)
+
+
+##### Text help
+
+A detailed explanation can be found [here](https://www.labvanced.com/page/documentation_eng).
+
+
+
+
+---
+
 ### Lab.js + JATOS
 
 <Mermaid chart={`
@@ -26,6 +82,11 @@ Concerning the ILCB server, we opted for a cloud web server hosted by [DigitalOc
 	    id1(in Lab.js <br> Export to JATOS)-->| transfert |id2(in JATOS <br> Import Study);
 `}/>
 
+lab.js is an easy to use tool to create online experiments. Their Builder makes creating an online experiment a piece of cake - although you can also write code yourself: lab.js supports this too.
+
+lab.js and JATOS fit perfectly together: lab.js directly exports JATOS studies. So you don’t need to write or modify any bits of code. You can create your experiment with lab.js. Then just import your studies into JATOS and let particpants run it.
+
+To reach support for specific technical questions, please refer to https://github.com/lpc-cnrs-amu/online-xp-docs/issues. We might open new channels of discussion depending on demand.
 
 ##### References
 
@@ -53,6 +114,15 @@ From Lab.js Vimeo Channel ([Felix Henninger](https://vimeo.com/felixhenninger))
 	    id1(in OSWeb <br> Export to JATOS)-->| transfert |id2(in JATOS <br> Import Study);
 `}/>
 
+OSWeb lets you run an OpenSesame experiment on a browser. OpenSesame is a pretty neat program to create experiments for psychology, neuroscience, and experimental economics. You can get very far with drag-and-drop, and there’s the chance to add code snippets if you need more flexibility.
+
+OSWeb’s documentation is far better than ours could ever be. So, here, we just point out that combining OSWeb with JATOS is pretty easy and straightforward: just export the experiment in OSWeb and import it in JATOS.
+
+If you want to use Prolific to recruit participants for your OSWeb experiment running in JATOS then you can put the return link in the ‘End Redirect URL’ field of your Study Properties (in JATOS GUI, since JATOS v3.5.1).
+
+That’s all there is to say. If you’d like to know more, Sebastiaan Mathot’s tutorial is the place to start.
+
+To reach support for specific technical questions, please refer to https://github.com/lpc-cnrs-amu/online-xp-docs/issues. We might open new channels of discussion depending on demand.
 
 ##### References
 
@@ -106,7 +176,3 @@ From JATOS doc site
 
 
 ---
-
-## Standalone solutions
-
--
