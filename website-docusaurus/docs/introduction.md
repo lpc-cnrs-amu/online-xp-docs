@@ -16,7 +16,7 @@ The [Institute for Language, Communication and the Brain](https://www.ilcb.fr) i
 ## Table of Resources
 
 :::tip
-Refer to the [How-to page](ilcbhowto.md) to know more about the preferred paths.
+Refer to the [How-to page](ilcbhowto.md) to know more about the preferred paths: **Labvanced** and **JATOS**
 :::
 
 Online experiments can be written in javascript from scratch, but there are many tools, libraries or all-in-one solutions to help building, managing and promoting an online experiment.
@@ -32,7 +32,7 @@ _The list below reflects the knowledge of the researchers and IT support staff i
 | [Cubius](/docs/introduction#cubius)                      | x |   |   |
 | [JsPsych](/docs/introduction#jspsych)                    | x |   |   |
 | [Lab.js](/docs/introduction#labjs)                       | x |   |   |
-| [OSWeb](/docs/introduction#osweb)                        | x |   |   |
+| [OpenSesame Web](/docs/introduction#osweb)                        | x |   |   |
 | [PsychopyJs](introduction#psychopyjs)                    | x |   |   |
 | [JATOS](/docs/introduction#jatos)                        |   | x |   |
 | [Pavlovia](/docs/introduction#pavlovia)                  |   | x |   |
@@ -93,7 +93,7 @@ There are plenty of videos on the web to help you start with.
 
 ---
 
-### OSWeb
+### OpenSesame - Web extension (OSWeb)
 
 [OSWeb](https://github.com/shyras/osweb/) is an online runtime for OpenSesame experiments.
 
@@ -105,7 +105,7 @@ There are plenty of tutorials on the web, and the forum is quite active
 
 :::
 
-The OSWeb page covers all you need to know about this free software : https://osdoc.cogsci.nl/3.2/manual/osweb/
+The following OSWeb page covers all you need to know about this free software : https://osdoc.cogsci.nl/3.2/manual/osweb/
 
 Basically, everything in OpenSesame that is not python scripted by hand can be turned into a web component, which in turn can be tweaked by javascript inlines. Export your experiment as a Jatos zip file, and import it in JATOS (jatos.ilcb-online-test.net)
 
